@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+.container{
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+.logo{
+    font-size: 3rem;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 0 15px;
+    color: black;
+}
+.menu a:first-child{
+    color: rgb(255, 128, 10);
+
+}
+.menu a:hover{
+    color: rgb(255, 128, 10);
+}
+span{
+    color: rgb(255, 128, 10);
+}
+.bt{
+    padding: 3px 5px;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+.hero-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    flex-basis: 40%;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 60em;
+}
+h2{
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 2em;
+}
+.btn{
+    background-color: rgb(255, 128, 10);
+    padding: 5px 10px;
+    font-size: 14px;
+    
+    margin-top: 20px ;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(216, 107, 6);
+}
+.hero-section1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.left1{
+    flex-basis: 50%;
+}
+.right1{
+    flex-basis: 40%;
+}
+.left1 img{
+    width: 500px;
+}
+img{
+    border-radius: 5px;
+}
+footer{
+    margin: 10rem 5rem;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 5rem;
+    max-width: 100rem;
+    margin: 0 auto;
+    gap: 2rem;
+}
+form >input{
+    padding: 10px;
+    border-radius: 5px;
+}
+#email,#feedback,#btn{
+    grid-column-start: span 2;
+}
+#feedback{
+    grid-row-start: span 2;
+}
+#btn{
+    color: white;
+    background-color: rgb(34, 54, 34);
+    font-size: 2rem;
+    
+}
+#btn:hover{
+    background-color: rgb(48, 59, 48);
+}
+
+@media(max-width:850px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:500px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:900px){
+    .mflex{
+        display: flex;
+        flex-direction: column;
+    }
+}
