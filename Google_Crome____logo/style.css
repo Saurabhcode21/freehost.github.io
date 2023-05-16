@@ -1,0 +1,116 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #wrapper {
+    display: block;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+  #wrapper > .logo {
+    display: inline-block;
+    margin: 150px 200px;
+  }
+  
+  .logo.chrome {
+  
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    height: 210px;
+    width: 210px;
+    z-index: 1;
+  }
+  .logo.chrome .center {
+   
+    border-radius: 50%;
+    background: #0d6cac;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    margin-top: -41px;
+    margin-left: -40px;
+    border-bottom: solid 1px #125e90;
+    z-index: 10;
+  }
+  .logo.chrome .circle {
+ 
+    border-radius: 50%;
+    position: absolute;
+    background: white;
+    top: 50%;
+    left: 50%;
+    height: 94px;
+    width: 94px;
+    margin-top: -48px;
+    margin-left: -47px;
+    z-index: 5;
+  }
+  .logo.chrome .part-1 {
+    background: #e93c35;
+    position: absolute;
+    top: 0;
+    left: 34px;
+    width: 200px;
+    height: 58px;
+  }
+  .logo.chrome .part-1:after {
+ 
+    transform: rotate(60deg);
+    content: " ";
+    background: #e93c35;
+    position: absolute;
+    top: 0;
+    left: -91px;
+    width: 200px;
+    height: 58px;
+  }
+  .logo.chrome .part-2 {
+   
+    transform: rotate(120deg); 
+    background: #fdd901;
+    position: absolute;
+    top: 131px;
+    left: 56px;
+    width: 200px;
+    height: 65px;
+  }
+  .logo.chrome .part-2:after {
+   
+    transform: rotate(60deg);
+    content: " ";
+    background: #fdd901;
+    position: absolute;
+    top: 0;
+    left: -91px;
+    width: 200px;
+    height: 58px;
+  }
+  .logo.chrome .part-3 {
+    
+    transform: rotate(-120deg);
+    background: #5bc15b;
+    position: absolute;
+    top: 88px;
+    left: -74px;
+    width: 200px;
+    height: 65px;
+  }
+  .logo.chrome .part-3:after {
+    
+    transform: rotate(60deg);
+    content: " ";
+    background: #5bc15b;
+    position: absolute;
+    top: 0;
+    left: -91px;
+    width: 200px;
+    height: 58px;
+  }
+ 
